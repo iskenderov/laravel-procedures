@@ -9,12 +9,12 @@ This  package helps to create and manage procedures in laravel 10
 ### Create procedure
     php artisan make:procedure name
 
-### RUN all procedures
+### Run all procedures
     php artisan proceed
 
 ### Run single procedure
     php artisan proceed:name
 
 
-### wipe all procedures
+### Wipe all procedures
     php artisan proceed:wipe
