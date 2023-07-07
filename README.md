@@ -1,4 +1,4 @@
-# procedures
+# laravel-procedures
 This  package helps to create and manage procedures in laravel 10
 
 ## Installation
