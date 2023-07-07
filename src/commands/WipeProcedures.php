@@ -40,7 +40,7 @@ class WipeProcedures extends Command
         }
     }
 
-    private function truncateProceedTable()
+    private function truncateProceedTable(): void
     {
         DB::table('proceed')->truncate();
     }
