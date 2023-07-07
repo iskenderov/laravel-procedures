@@ -28,7 +28,7 @@ class WipeProcedures extends Command
 
     private function wipeProcedure(): void
     {
-       $database = DB::connection()->getDatabaseName();
+        $database = DB::connection()->getDatabaseName();
 
         $query = "SELECT SPECIFIC_NAME AS NAME FROM INFORMATION_SCHEMA.ROUTINES WHERE ROUTINE_TYPE = 'PROCEDURE' AND ROUTINE_SCHEMA = '{$database}'";
 
