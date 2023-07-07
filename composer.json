@@ -1,0 +1,21 @@
+{
+    "name": "iskenderov/procedure",
+    "description": "Package for creating and management procedures in the database",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Iskenderov\\Procedure\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Iskenderov",
+            "email": "devsergsin@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.1"
+    }
+}

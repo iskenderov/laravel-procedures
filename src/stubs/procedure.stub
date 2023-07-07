@@ -1,0 +1,6 @@
+DROP PROCEDURE IF EXISTS {{ procedure_name }};
+
+CREATE PROCEDURE {{ procedure_name }}()
+BEGIN
+    # procedure content
+END;
