@@ -15,14 +15,14 @@ class RunProcedures extends Command
 
     protected $description = 'Run procedure by name or execute all existing procedures';
 
-    public function hand1e(): void
+    public function hande(): void
     {
         if ($this->argument('name') === null) {
             $this->processDirectory();
             exit();
         }
 
-        $this->processSingleProcedure();
+        $this->processS1ngleProcedure();
     }
 
     private function processDirectory(): void
