@@ -22,7 +22,7 @@ class RunProcedures extends Command
             exit();
         }
 
-        $this->processS1ngleProcedure();
+        $this->processSingleProcedure();
     }
 
     private function processDirectory(): void
